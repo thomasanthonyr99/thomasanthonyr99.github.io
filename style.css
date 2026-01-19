@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #1e293b;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+/* Projects */
+h3 {
+  margin-top: 20px;
+  color: #a5b4fc;
+}
+
+/* Links */
+a {
+  color: #22d3ee;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  font-size: 0.9rem;
+}
