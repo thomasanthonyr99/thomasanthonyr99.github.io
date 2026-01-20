@@ -1,0 +1,39 @@
+:root {
+  /* Loro Piana Inspired Palette */
+  --color-bg: #F5F2EB; /* Warm off-white/Beige */
+  --color-text-primary: #4A453E; /* Deep Taupe */
+  --color-text-secondary: #8C867D; /* Muted Grey */
+  --color-accent: #B8AFA0; /* Warm Grey */
+  --color-white: #FFFFFF;
+  
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Lato', sans-serif;
+  
+  --spacing-unit: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  overflow: hidden; /* Main scroll handled by R3F/Overlay */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
